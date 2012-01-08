@@ -1,0 +1,13 @@
+# Identifies the subfolders and files to ignore from the 
+# Subfolders to ignore
+target/
+logs/
+wsdl/
+testResults/
+
+# Files to ignore 
+catalog.xml
+Thumbs.db
+thumbs.db
+*.pdf
+*.log
