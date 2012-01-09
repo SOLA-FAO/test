@@ -1,0 +1,8 @@
+!contents
+|import                      |
+|org.sola.test.desktopfixture|
+
+|script|Setup Test Data            |
+|field |Login: User Name|Value|test|
+|field |Login: Password |Value|test|
+

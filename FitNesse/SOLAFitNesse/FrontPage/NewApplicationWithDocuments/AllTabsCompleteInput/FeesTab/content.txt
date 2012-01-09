@@ -1,0 +1,8 @@
+!contents
+
+
+|script    |Desktop Fixture|
+|select Tab|Fees           |
+|click     |Calculate fee  |
+|tick      |Paid           |
+|show      |get Messages   |

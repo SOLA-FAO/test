@@ -1,0 +1,15 @@
+!contents
+
+|script    |Desktop Fixture         |
+|select Tab|Property                |
+|type      |NA684 |into|txtFirstPart|
+|type      |158   |into|txtLastPart |
+|type      |1169  |into|txtArea     |
+|type      |125000|into|txtValue    |
+|click     |Add property            |
+
+New method required to select row in table
+|script    |Desktop Fixture|
+|select Tab|Property       |
+|click     |Verify         |
+|show      |get Description|

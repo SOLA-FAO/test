@@ -1,0 +1,19 @@
+!contents
+
+!include -c .FrontPage.InitialUtilities.LoginInput
+
+
+|script     |Desktop Fixture                                          |
+|open Window|New Application|Menu|Applications|Submenu|New Application|
+
+!include -c .FrontPage.NewApplicationWithDocuments.AllTabsCompleteInput.ContactsTab
+
+!include -c .FrontPage.NewApplicationWithDocuments.AllTabsCompleteInput.ServicesTab
+
+!include -c .FrontPage.NewApplicationWithDocuments.AllTabsCompleteInput.DocumentsTab
+
+!include -c .FrontPage.NewApplicationWithDocuments.AllTabsCompleteInput.PropertyTab
+
+!include -c .FrontPage.NewApplicationWithDocuments.AllTabsCompleteInput.FeesTab
+
+!include -c .FrontPage.NewApplicationWithDocuments.LodgeApplication

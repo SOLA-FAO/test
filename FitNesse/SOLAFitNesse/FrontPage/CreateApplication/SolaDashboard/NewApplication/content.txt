@@ -1,0 +1,3 @@
+!contents
+
+!include -c .FrontPage.CreateApplication.SolaDashboard

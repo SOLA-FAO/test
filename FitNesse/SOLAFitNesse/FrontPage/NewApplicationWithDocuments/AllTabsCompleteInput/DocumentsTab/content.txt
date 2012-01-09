@@ -1,0 +1,13 @@
+!contents
+
+|script|Setup Test Data                            |
+|field |New App: Doctypes Combo|Value|cbxDocType   |
+|field |New App: Doctypes      |Value||Action|LAST|
+
+
+|script    |Desktop Fixture                               |
+|select Tab|Documents                                     |
+|type      |10/01/2011       |into|txtDocRecordDate       |
+|type      |NA684/158        |into|txtDocRefNumber        |
+|select    |New App: Doctypes|from|New App: Doctypes Combo|
+|click     |btnOK                                          |

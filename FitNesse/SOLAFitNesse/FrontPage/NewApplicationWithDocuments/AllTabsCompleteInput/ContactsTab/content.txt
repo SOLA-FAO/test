@@ -1,0 +1,20 @@
+contents
+
+
+|script|Setup Test Data                                |
+|field |New App: Agent Combo |Value|cbxAgents          |
+|field |New App: Agent       |Value|  |Action  |LAST   |
+|field |New App: comWay Combo|Value|cbxCommunicationWay|
+|field |New App: comWay      |Value|  |Action  |FIRST  |
+
+
+|script    |Desktop Fixture                           |
+|select Tab|Contacts                                  |
+|type      |John           |into|txtFirstName         |
+|type      |Smith          |into|txtLastName          |
+|type      |Address1       |into|txtAddress           |
+|type      |12345          |into|txtPhone             |
+|type      |54321          |into|txtFax               |
+|type      |test@gmail.com |into|txtEmail             |
+|select    |New App: Agent |from|New App: Agent Combo |
+|select    |New App: comWay|from|New App: comWay Combo|

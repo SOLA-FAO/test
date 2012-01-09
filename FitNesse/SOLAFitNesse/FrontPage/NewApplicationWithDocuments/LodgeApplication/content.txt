@@ -1,0 +1,5 @@
+!contents
+
+|script|Desktop Fixture|
+|click |Save           |
+|show  |get Messages   |

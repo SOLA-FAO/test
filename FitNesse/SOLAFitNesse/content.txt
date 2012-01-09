@@ -1,0 +1,5 @@
+!define TEST_SYSTEM {slim}
+
+!path fitnesse.jar
+!path ../desktop-fixture/target/*.jar
+!path ../desktop-fixture/target/lib/*.jar

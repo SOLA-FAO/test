@@ -1,0 +1,10 @@
+!contents
+
+|script|Setup Test Data                                      |
+|field |New App: serviceDetails Table|Value|tabFeeDetails1   |
+|field |New App: serviceDetails      |Value|Cadastre Redefine|
+
+|script     |Desktop Fixture                   |
+|select Tab |Services                          |
+|open Window|Select Service|Click|btnAddService|
+|show       |getDescription                    |

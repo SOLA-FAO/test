@@ -1,0 +1,32 @@
+!contents
+
+!include -c .FrontPage.InitialUtilities.LoginInput
+
+Setup 
+
+
+|script|Setup Test Data                              |
+|field |New App: Agent Combo     |Value|cbxAgents    |
+|field |New App: Services Listbox|Value|lstServices  |
+|field |New App: Agent           |Value||Action|FIRST|
+|field |New App: Services        |Value||Action|FIRST|
+
+|script     |Desktop Fixture                                            |
+|open Window|New Application  |Menu|Applications|Submenu|New Application|
+|type       |John             |into|txtFirstName                        |
+|type       |Smith            |into|txtLastName                         |
+|type       |Address1         |into|txtAddress                          |
+|select     |New App: Agent   |from|New App: Agent Combo                |
+|select Tab |Services                                                   |
+|show       |options of       |New App: Services Listbox                |
+|select     |New App: Services|from|New App: Services Listbox           |
+|click      |Add ->                                                     |
+|show       |options of       |lstSelectedServices                      |
+|show       |options of       |New App: Services Listbox                |
+|show       |get description                                            |
+|select Tab |Fees                                                       |
+|tick       |Paid                                                       |
+|click      |Save                                                       |
+|show       |get Messages                                               |
+
+

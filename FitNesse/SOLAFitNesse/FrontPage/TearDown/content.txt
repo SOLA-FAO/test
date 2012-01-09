@@ -1,0 +1,3 @@
+!contents
+|script|Desktop Fixture|
+|exit Sola             |

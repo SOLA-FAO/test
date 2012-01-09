@@ -1,0 +1,11 @@
+!contents
+
+
+|script|Setup Test Data            |
+|field |Login: User Name|Value|test|
+|field |Login: Password |Value|test|
+
+|script|Desktop Fixture                     |
+|start Sola                                 |
+|check |get Window Title|SOLA desktop client|
+
